@@ -1,11 +1,17 @@
 var AI = {
-  show: function(){
-    var mu = "<div class='fadeBox'> <div class='spinner'> </div> </div>";
+  show: function(style){
+    if style = "style2"
+    {
+		var mu = "<div class='fadeBox'> <div class='spinner2'> </div> </div>";
+	}
+	else if style = "style3"
+	{
+		var mu = "<div class='fadeBox'> <div class='spinner3'> </div> </div>";
+	}
+	else {
+		var mu = "<div class='fadeBox'> <div class='spinner'> </div> </div>";
+	}
     document.body.innerHTML += mu;
-  },
-  show: function(style2){
-	var style2 = "<div class='fadeBox'> <div class='spinner2'> </div> </div>";
-	document.body.innerHTML += style2;
   },
   hide: function(){
     $(".fadeBox").remove();
