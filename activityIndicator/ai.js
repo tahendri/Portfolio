@@ -4,8 +4,8 @@ var AI = {
     document.body.innerHTML += mu;
   },
   show: function(style2){
-	var mu = "<div class='fadeBox'> <div class='spinner2'> </div> </div>";
-	document.body.innerHTML += mu;
+	var style2 = "<div class='fadeBox'> <div class='spinner2'> </div> </div>";
+	document.body.innerHTML += style2;
   },
   hide: function(){
     $(".fadeBox").remove();
