@@ -42,3 +42,15 @@
     margin-top: 10%;
     display: block;
 }
+
+.spinner2{
+    -webkit-animation: infinite-spinning 1s infinite linear;
+    animation: infinite-spinning 1s infinite linear;
+    width: 50px;
+    min-height: 50px;
+    margin: auto;
+    background: url(./rainbow.png) no-repeat center;
+    background-size: contain;
+    margin-top: 10%;
+    display: block;
+}
